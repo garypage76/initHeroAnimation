@@ -1,0 +1,17 @@
+// :: images
+.img-main {
+    position: absolute;
+    right: 0;
+    height: 100vh;
+    width: 40vw;
+    object-fit: cover;
+}
+
+.img-alt {
+    position: absolute;
+    right: 31.5vw;
+    z-index: 10;
+    height: 42vh;
+    width: 30vw;
+    object-fit: contain;
+}

@@ -1,9 +1,5 @@
-// :: import JS files
+import animation from './animation';
 
-import { init } from './init';
-
-document.querySelector('h1').textContent = init(`It's working`);
-
-// :: import SASS files
+animation();
 
 import './sass/main.scss';

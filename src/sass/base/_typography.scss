@@ -1,1 +1,13 @@
 // :: Typography rules
+$font-base: 'Poppins',
+sans-serif;
+$font-title: 'Iceland',
+cursive;
+body {
+    font-family: $font-base;
+}
+
+h1,
+button {
+    font-family: $font-title;
+}
